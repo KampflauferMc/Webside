@@ -8,23 +8,22 @@
 <body>
     <div id="banner">
         <img id="icon" src="Bilder/kampfl%C3%A4uder_logo.png">
-        <img id="back" src="Bilder/sky.png">
-        <div id="anzieher">Hallo Liebe/r Minecraft spiele/r, dies sind die Offizielle Website von Kampfläufermc!</div>
-                <hr id="laser">
+        <img id="back" src="Bilder/hyperraum.jpg">
+        <div id="laser">
+            <div id="anzieher">Hallo Liebe/r Minecraft spiele/r, dies sind die Offizielle Website von Kampfläufermc!</div>
+                <hr id="laserhr">
             </div>
+        </div>
             <div id="menu">
                 <button><a href="/">Start</a></button>
                 <button><a href="/Wiki">Wiki</a></button>
-                <button><a href="/Games/">Spiele Übersicht</a></button>
                 <button><a href="/Forum/">Forum</a></button>
                 <button><a href="/News/">Neuigkeiten</a></button>
-                <button><a href="/Kontakte/">Neuigkeiten</a></button>
                 <button><a href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">Youtube</a></button>
             </div>
 
             <div id="text">
-
-                <div style="max-width: 800px">
+                <div style="max-width: 800px" id="textdiv">
                     <h2>Über den Minecraft Server</h2>
                     <h1>Server Trailer</h1>
                     <iframe src="https://www.youtube-nocookie.com/embed/P-fGEDq0wqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,17 +37,24 @@
                     <h1>Ingame Geld System</h1>
                     <p>Zudem bieten wir ein selbst entwickeltes Wirtschaftssystem an, mit dem man auf allen Servern bezahlen kann, da wir ein Netzwerk weites Geldsystem haben. Durch das Geld System kann man das Ingame Geld, dass man zum beispiel in einer Weltraumschlachten Runde gewinnt, auf dem Citybuild Server wieder ausgeben. Das Geldsystem fügt kein Geld hinzu sondern so das keine inflantion statt finden kann.</p>
                 </div>
-                <div style="max-width: 100px;">
+                <div style="max-width: 100px;" id="textdiv">
                     <h1>Kontake</h1>
                     <p>Sie können uns jederzeit Erreichen under Folgenden Kontaktdaten</p>
                     <p>Minecraft: kampfläuferMc.de</p>
                     <p>Teamspeak: kampfläuferMc.de</p>
                     <p>Email: info@kampfläuferMc.de</p>
+                    <a href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">YouTube</a>
+
+
+                    <h1>Das bieten ihnen wir an</h1>
+                    <ul>
+                        <li><a href="/Wiki/Weltraum">Weltraumschlachten</a></li>
+                        <li><a href="/Wiki/CityBuild">CityBuild</a></li>
+                        <li><a href="/Wiki/Bedwars">BedWars</a></li>
+                    </ul>
                     <h1>News</h1>
                     <p>Hir Sehen sie Alle Neuigkeiten</p>
                     <p>Es Wird Derzeit an unserer Webseite entwicket.</p>
-
-
                 </div>
             </div>
             <div id="imp">
@@ -61,43 +67,50 @@
 
 
             <script>
-                Gcolor(Math.random() * 100);
+                //Gcolor(Math.random() * 100);
+                Gcolor(100);
 
                 function Gcolor(x) {
 
+                    var laser = document.getElementById("laser");
+                    var text = document.getElementById("text");
+
                     if (x >= 0 && x <= 40) {
-                        document.getElementById("laser").style.color = "blue";
-                        document.getElementById("anzieher").style.color = "blue";
+                        laser.style.color = "blue";
+                        text.style.color = "blue";
 
                     } else if (x > 40 && x <= 72) {
-                        document.getElementById("laser").style.color = "red";
-                        document.getElementById("anzieher").style.color = "red";
+                        laser.style.color = "red";
+                        text.style.color = "red";
 
                     } else if (x > 72 && x <= 82) {
-                        document.getElementById("laser").style.color = "green";
-                        document.getElementById("anzieher").style.color = "green";
+                        laser.style.color = "green";
+                        text.style.color = "green";
 
                     } else if (x > 82 && x <= 92) {
-                        document.getElementById("laser").style.color = "purple";
-                        document.getElementById("anzieher").style.color = "purple";
+                        laser.style.color = "purple";
+                        text.style.color = "purple";
 
                     } else if (x > 92 && x <= 94) {
-                        document.getElementById("laser").style.color = "yellow";
-                        document.getElementById("anzieher").style.color = "yellow";
+                        laser.style.color = "yellow";
+                        text.style.color = "yellow";
 
                     } else if (x > 94 && x <= 96) {
-                        document.getElementById("laser").style.color = "white";
-                        document.getElementById("anzieher").style.color = "white";
+                        laser.style.color = "white";
+                        text.style.color = "white";
 
 
                     } else if (x > 96 && x <= 99) {
-                        document.getElementById("laser").style.color = "orange";
-                        document.getElementById("anzieher").style.color = "orange";
+                        laser.style.color = "orange";
+                        text.style.color = "orange";
 
                     } else if (x > 99 && x <= 100) {
 
-                        document.getElementById("laser").style.color = "white";
-                        document.getElementById("laser").style.backgroundColor = "white";
+                        laser.style.color = "white";
+                        document.getElementById("laserhr").style.backgroundColor = "black";s
+
+                        text.style.color = "white";
+                        document.getElementById("textdiv").style.backgroundColor = "black";
 
                         return true;
                     }
