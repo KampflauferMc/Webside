@@ -44,7 +44,6 @@ button {
     border-color: white;
     border-style: solid;
     transition: 2s;
-
     box-shadow: 0 0 20px,
                 0 0 5px,
         inset   0 0 20px,
