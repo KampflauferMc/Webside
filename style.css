@@ -21,11 +21,25 @@
 
 button {
     border-radius: 5px;
-    background: black;
+    background: transparent;
     border-style: solid;
     border-width:  2px;
     border-color: white;
     text-align: center;
+}
+#kontaks {
+    border-radius: 0px;
+    border: 0px;
+}
+#kontaks a{
+  color: green;
+}
+
+ol{
+  padding: 0px;
+}
+ul{
+  padding: 0px;
 }
 
 #menu{
@@ -60,13 +74,17 @@ button {
 #text div iframe{
     width: 100%;
     height: 431px;
-    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px,
+                0 0 5px,
+        inset   0 0 20px,
+        inset   0 0 5px;
 }
 
 #laser hr{
     left: 0px;
     width: 100%;
-    height: 5px;
+    height: 7px;
 
     background-color: white;
     border-style: none;
@@ -82,12 +100,16 @@ button {
 #laser{
     margin-bottom: 100px;
     margin-top: -30px;
-    position: absolute;
+    position: sticky;
     width: 100%;
 }
 
 #anzieher{
     font-style: italic;
+}
+
+#list ol a{
+  font-weight: bold;
 }
 
 #text{
@@ -100,27 +122,46 @@ button {
 }
 
 button a{
-    font-family: consolas;
     text-decoration: none;
     font-size: 20px;
     color: white;
+    font-family: consolas ,monospace, sans-serif;
+    font-weight: bold;
 
 }
+#kontaks{
+  width: 100%;
+  border-width: 0px;
+  font-family: consolas ,monospace, sans-serif;
+  font-size: 20px;
+}
+
 h2{
-    color: red;
+    color: gold;
+    font-size: 35px;
+    font-family: impact ,monospace, sans-serif;
+    font-weight: bold;
+
 }
 h1{
+  color: gold;
     margin-top: 30px;
     font-size: 17px;
-    font-family: consolas;
-    color: red;
+    font-family: impact ,monospace, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+  color: green;
+  margin-top: 15px;
+  font-family: consolas ,monospace, sans-serif;
 
 }
-
 body {
     background: url("Bilder/sky.png");
     text-align: center;
-    font-family: consolas;
+    font-family: consolas ,monospace, sans-serif;
+    font-size: 20px;
     color: white;
     margin: 0px;
 }

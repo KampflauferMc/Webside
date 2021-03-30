@@ -6,7 +6,7 @@
 </header>
 
 <body>
-    <div id="banner">
+      <div id="banner">
         <img id="icon" src="Bilder/kampfl%C3%A4uder_logo.png">
         <img id="back" src="Bilder/hyperraum.jpg">
         <div id="laser">
@@ -14,108 +14,54 @@
                 <hr id="laserhr">
             </div>
         </div>
-            <div id="menu">
-                <button><a href="/">Start</a></button>
-                <button><a href="/Wiki">Wiki</a></button>
-                <button><a href="/Forum/">Forum</a></button>
-                <button><a href="/News/">Neuigkeiten</a></button>
-                <button><a href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">Youtube</a></button>
+        <div id="menu">
+            <button><a href="/">Start</a></button>
+            <button><a href="/Wiki">Wiki</a></button>
+            <button><a href="/Forum/">Forum</a></button>
+            <button><a href="/News/">Neuigkeiten</a></button>
+            <button><a href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">Youtube</a></button>
+        </div>
+
+        <div id="text">
+             <div style="max-width: 800px" id="textdiv">
+                <h2>Über den Minecraft Server</h2>
+                <h1>Server Trailer</h1>
+                <iframe src="https://www.youtube-nocookie.com/embed/P-fGEDq0wqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Willkommen</h1>
+                <p>Hallo Liebe/r Nutzer/in schön das sie den Weg zu unserem Server gefunden haben hier erwarten sie spannende Abenteuer In Spektakulären Weltraumschlachten und in vielen anderen einzigartigen Spielmodies, die wir selbst entwickelt haben. Wir bestehen seit Anfang 2018 und sind schon seit mehr als 3 Jahren dabei unseren Server weiterzuentwickeln dem entsprechend können wir natürlich auch sehr viel anbieten. Zudem bieten wir einen äußerst kompetenten Support an der immer gerne Fragen beantwortet. Wir haben unseren Schwerpunkt daraufgelegt neue Spielmodies für unsere Nutzer zu entwickeln und setzten nicht wie viele andere Server auf alte Minispiele das hebt uns deutlich von unserer Konkurrenz ab.</p>
+
+
+                <h1>Weltraumschlachten</h1>
+                <p>In unserem Selbst entwickelten Minispiel Weltraumschlachten treten sie in zwei Teams gegeneinander an, um in einem Epischen Gefecht das beste Team auszumachen. Sie Spielen das mini Spiel in selbst programmierten Raumschiffen und können damit Lenkraketen und Laser Schüsse abfeuern, um den Gegner zu zerstören und das Spiel zu gewinnen. Dies wird möglichgemacht durch ein selbstentwickeltes Texturen Paket was sich automatisch mit klicken auf ja installiert. Für weitere Informationen zu den Weltraumschlachten besuchen gerne unser Wiki. Zudem bieten wir auch viele klassische Spiel Modis wie Bedwars oder Citybuild an.</p>
+
+                <h1>Ingame Geld System</h1>
+                <p>Zudem bieten wir ein selbst entwickeltes Wirtschaftssystem an, mit dem man auf allen Servern bezahlen kann, da wir ein Netzwerk weites Geldsystem haben. Durch das Geld System kann man das Ingame Geld, dass man zum beispiel in einer Weltraumschlachten Runde gewinnt, auf dem Citybuild Server wieder ausgeben. Das Geldsystem fügt kein Geld hinzu sondern so das keine inflantion statt finden kann.</p>
+             </div>
+             <div style="max-width: 100px">
+                <h1>Kontake</h1>
+                <p>Sie können uns jederzeit Erreichen under Folgenden Kontaktdaten</p>
+                <button id="kontaks"><a onmouseover="changeText(this,'Klicken um zu kopieren')" onmouseout="changeText(this,'Minecraft IP: kamfläufermc.de')" onclick="CopyToClipboard('kamfläufermc.de')">Minecraft IP: kamfläufermc.de</a></button>
+                <button id="kontaks"><a onmouseover="changeText(this,'Klicken um zu kopieren')" onmouseout="changeText(this,'Teamspeak: kamfläufermc.de')" onclick="CopyToClipboard('kamfläufermc.de')">Teamspeak: kamfläufermc.de</a></button>
+                <button id="kontaks"><a onmouseover="changeText(this,'Klicken um zu Email zu Senden')" onmouseout="changeText(this,'Email: info@kamfläufermc.de')" href="mailto:info@kampfläufermc.de?subject=Hallo%20ich%20Brauche%20Hilfe&body=Hallo%20Kampfl%C3%A4uferMc%20Team%2C%0D%0A%0D%0A...%0D%0A%0D%0AViele%20Gr%C3%BC%C3%9Fe">Email: info@kamfläufermc.de </a></button>
+                <button id="kontaks"><a onmouseover="changeText(this,'Klicken um Auf zu Rufen')" onmouseout="changeText(this,'Youtube')" href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">YouTube</a></button>
+
+
+                <h1>Das bieten ihnen wir an</h1>
+                <ul id="list">
+                    <ol><a href="/Wiki/Weltraum">Weltraumschlachten</a></ol>
+                    <ol><a href="/Wiki/CityBuild">CityBuild</a></ol>
+                    <ol><a href="/Wiki/Bedwars">BedWars</a></ol>
+                </ul>
+                <h1>News</h1>
+                <p>Hir Sehen sie Alle Neuigkeiten</p>
+                <p>Es Wird Derzeit an unserer Webseite entwicket.</p>
             </div>
-
-            <div id="text">
-                <div style="max-width: 800px" id="textdiv">
-                    <h2>Über den Minecraft Server</h2>
-                    <h1>Server Trailer</h1>
-                    <iframe src="https://www.youtube-nocookie.com/embed/P-fGEDq0wqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h1>Willkommen</h1>
-                    <p>Hallo Liebe/r Nutzer/in schön das sie den Weg zu unserem Server gefunden haben hier erwarten sie spannende Abenteuer In Spektakulären Weltraumschlachten und in vielen anderen einzigartigen Spielmodies, die wir selbst entwickelt haben. Wir bestehen seit Anfang 2018 und sind schon seit mehr als 3 Jahren dabei unseren Server weiterzuentwickeln dem entsprechend können wir natürlich auch sehr viel anbieten. Zudem bieten wir einen äußerst kompetenten Support an der immer gerne Fragen beantwortet. Wir haben unseren Schwerpunkt daraufgelegt neue Spielmodies für unsere Nutzer zu entwickeln und setzten nicht wie viele andere Server auf alte Minispiele das hebt uns deutlich von unserer Konkurrenz ab.</p>
-
-
-                    <h1>Weltraumschlachten</h1>
-                    <p>In unserem Selbst entwickelten Minispiel Weltraumschlachten treten sie in zwei Teams gegeneinander an, um in einem Epischen Gefecht das beste Team auszumachen. Sie Spielen das mini Spiel in selbst programmierten Raumschiffen und können damit Lenkraketen und Laser Schüsse abfeuern, um den Gegner zu zerstören und das Spiel zu gewinnen. Dies wird möglichgemacht durch ein selbstentwickeltes Texturen Paket was sich automatisch mit klicken auf ja installiert. Für weitere Informationen zu den Weltraumschlachten besuchen gerne unser Wiki. Zudem bieten wir auch viele klassische Spiel Modis wie Bedwars oder Citybuild an.</p>
-
-                    <h1>Ingame Geld System</h1>
-                    <p>Zudem bieten wir ein selbst entwickeltes Wirtschaftssystem an, mit dem man auf allen Servern bezahlen kann, da wir ein Netzwerk weites Geldsystem haben. Durch das Geld System kann man das Ingame Geld, dass man zum beispiel in einer Weltraumschlachten Runde gewinnt, auf dem Citybuild Server wieder ausgeben. Das Geldsystem fügt kein Geld hinzu sondern so das keine inflantion statt finden kann.</p>
-                </div>
-                <div style="max-width: 100px">
-                    <h1>Kontake</h1>
-                    <p>Sie können uns jederzeit Erreichen under Folgenden Kontaktdaten</p>
-                    <p>Minecraft: kampfläuferMc.de</p>
-                    <p>Teamspeak: kampfläuferMc.de</p>
-                    <p>Email: info@kampfläuferMc.de</p>
-                    <a href="https://www.youtube.com/channel/UCkv5gRnisKh3X2cXZjwLLNA">YouTube</a>
-
-
-                    <h1>Das bieten ihnen wir an</h1>
-                    <ul>
-                        <li><a href="/Wiki/Weltraum">Weltraumschlachten</a></li>
-                        <li><a href="/Wiki/CityBuild">CityBuild</a></li>
-                        <li><a href="/Wiki/Bedwars">BedWars</a></li>
-                    </ul>
-                    <h1>News</h1>
-                    <p>Hir Sehen sie Alle Neuigkeiten</p>
-                    <p>Es Wird Derzeit an unserer Webseite entwicket.</p>
-                </div>
-            </div>
-            <div id="imp">
-                <hr>
-                <h2>Impressum</h2>
-
-                <p></p>
-            </div>
-
-
-
-            <script>
-                //Gcolor(Math.random() * 100);
-                Gcolor(100);
-
-                function Gcolor(x) {
-
-                    var laser = document.getElementById("laser");
-                    var text = document.getElementById("text");
-
-                    if (x >= 0 && x <= 40) {
-                        laser.style.color = "blue";
-                        text.style.color = "blue";
-
-                    } else if (x > 40 && x <= 72) {
-                        laser.style.color = "red";
-                        text.style.color = "red";
-
-                    } else if (x > 72 && x <= 82) {
-                        laser.style.color = "green";
-                        text.style.color = "green";
-
-                    } else if (x > 82 && x <= 92) {
-                        laser.style.color = "purple";
-                        text.style.color = "purple";
-
-                    } else if (x > 92 && x <= 94) {
-                        laser.style.color = "yellow";
-                        text.style.color = "yellow";
-
-                    } else if (x > 94 && x <= 96) {
-                        laser.style.color = "white";
-                        text.style.color = "white";
-
-
-                    } else if (x > 96 && x <= 99) {
-                        laser.style.color = "orange";
-                        text.style.color = "orange";
-
-                    } else if (x > 99 && x <= 100) {
-
-                        laser.style.color = "white";
-                        document.getElementById("laserhr").style.backgroundColor = "black";
-
-                        text.style.color = "white";
-                        document.getElementsById("textdiv").style.backgroundColor = "black";
-
-                        return true;
-                    }
-                }
-
-            </script>
+        </div>
+        <div id="imp">
+            <hr>
+            <h2>Impressum</h2>
+            <p></p>
+        </div>
+        <script src="script.js"></script>
 
 </body>
