@@ -27,13 +27,6 @@ button {
     border-color: white;
     text-align: center;
 }
-#kontaks {
-    border-radius: 0px;
-    border: 0px;
-}
-#kontaks a{
-  color: green;
-}
 
 ol{
   padding: 0px;
@@ -110,6 +103,8 @@ ul{
 
 #list ol a{
   font-weight: bold;
+  color: geeen;
+  text-decoration: none;
 }
 
 #text{
@@ -129,6 +124,14 @@ button a{
     font-weight: bold;
 
 }
+#kontaks {
+    border-radius: 0px;
+    border: 0px;
+}
+#kontaks a{
+  color: green;
+}
+
 #kontaks{
   width: 100%;
   border-width: 0px;
@@ -166,14 +169,6 @@ body {
     margin: 0px;
 }
 
-#Youtube a {
-    color: red;
-}
-
-#Twich a{
-    color: purple;
-
-}
 
 #imp{
     width: 100%;
