@@ -4,35 +4,44 @@ function Gcolor(x) {
 
   var laser = document.getElementById("laser");
   var text = document.getElementById("text");
+  var menu = document.getElementById("menu");
+  var target = document.getElementById("light");
 
   if (x >= 0 && x <= 40) {
       laser.style.color = "blue";
       text.style.color = "blue";
+      menu.style.color = "blue";
 
   } else if (x > 40 && x <= 72) {
       laser.style.color = "red";
       text.style.color = "red";
+      menu.style.color = "red";
 
   } else if (x > 72 && x <= 82) {
       laser.style.color = "green";
       text.style.color = "green";
+      menu.style.color = "green";
 
   } else if (x > 82 && x <= 92) {
       laser.style.color = "purple";
       text.style.color = "purple";
+      menu.style.color = "purple";
 
   } else if (x > 92 && x <= 94) {
       laser.style.color = "yellow";
       text.style.color = "yellow";
+      menu.style.color = "yellow";
 
   } else if (x > 94 && x <= 96) {
       laser.style.color = "white";
       text.style.color = "white";
+      menu.style.color = "white";
 
 
   } else if (x > 96 && x <= 99) {
       laser.style.color = "orange";
       text.style.color = "orange";
+      menu.style.color = "orange";
 
   } else if (x > 99 && x <= 100) {
 
@@ -41,6 +50,9 @@ function Gcolor(x) {
 
       text.style.color = "white";
       document.getElementsById("textdiv").style.backgroundColor = "black";
+
+      menu.style.color = "white";
+      menu.style.backgroundColor = "black";
 
       return true;
   }
