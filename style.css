@@ -33,7 +33,8 @@ button {
 }
 
 ol{
-  padding: 0px;
+  padding: 10px;
+  background-color: black;
 }
 ul{
   padding: 0px;
@@ -52,8 +53,10 @@ ul{
     border-style: solid;
     box-shadow: 0 0 20px,
                 0 0 5px
+}
 
-
+#menu button:hover{
+  background: gold;
 }
 #text div{
     margin: 10px;
