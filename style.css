@@ -53,6 +53,11 @@ ul{
     box-shadow: 0 0 20px,
                 0 0 5px
 }
+@media (max-width: 1000px){
+  #menu button a{
+    font-size: 50px;
+  }
+}
 
 #menu button:hover{
   background: gold;
