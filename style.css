@@ -1,4 +1,4 @@
- #back{
+#back{
     width: 100%;
     max-height: 500px;
     height: 400px;
@@ -55,7 +55,14 @@ ul{
 }
 @media (max-width: 1000px){
   #menu button a{
-    font-size: 50px;
+    font-size: 33px;
+  }
+  #menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #anzieher{
+    font-size: 35px;
   }
 }
 
@@ -78,6 +85,8 @@ ul{
         inset   0 0 20px,
         inset   0 0 5px;
 }
+
+
 
 #text div p{
     color: white;
@@ -130,12 +139,14 @@ ul{
 #anzieher{
     font-style: italic;
     font-weight: bold;
+    text-shadow: 0 0 4px;
 }
 
 #list ol a{
   font-weight: bold;
   color: geeen;
   text-decoration: none;
+  text-shadow: 0 0 3px;
 }
 
 #text{
@@ -153,6 +164,7 @@ button a{
     color: white;
     font-family: consolas ,monospace, sans-serif;
     font-weight: bold;
+    text-shadow: 0 0 3px;
 
 }
 #kontaks {
@@ -175,6 +187,7 @@ h2{
     font-size: 35px;
     font-family: impact ,monospace, sans-serif;
     font-weight: bold;
+    text-shadow: 0px 0px 4px;
 
 }
 h1{
@@ -184,6 +197,7 @@ h1{
     font-family: impact ,monospace, sans-serif;
     font-size: 25px;
     font-weight: bold;
+    text-shadow: 0px 0px 3px;
 }
 a{
   color: green;
